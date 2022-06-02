@@ -1,10 +1,10 @@
 # Katerina Ivankova #
 
 ## Contacts ##
- **Location:** Mogilev, Belarus
- **e-mail:** *katerina.ivankova@mail.ru*
- *Discord: Katerina139#2247*
- *Telegram: @Katerina_Ivankova*
+* **Location:** Mogilev, Belarus
+* **e-mail:** *katerina.ivankova@mail.ru*
+* *Discord: Katerina139#2247*
+* *Telegram: @Katerina_Ivankova*
 
 
 ## About me ##
