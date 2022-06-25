@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Caveat;
+  src: url("assets/fonts/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: PTSans;
+  src: url("assets/fonts/PTSansNarrow-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid orange;
+}
+
+.container {
+  border: 1px solid orange;
+}
+
+.footer {
+  border: 1px solid orange;
+}
