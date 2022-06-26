@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kaushan+Script&family=PT+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#summary" class="nav_link">Summary</a></li>
+          <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+          <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+          <li class="nav_item"><a href="#code" class="nav_link">Code</a></li>
+          <li class="nav_item"><a href="#courses" class="nav_link">Courses</a></li>
+          <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+          <li class="nav_item"><a href="#english" class="nav_link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="summary" id="summary">
+        <h1 class="title">Summary</h1>
+        <div class="profile_info">
+          <img class="avatar" src="./assets/img/Rlw-yHAqoEE.jpg" alt="avatar">
+          <div class="desc_text">
+            <p class="profile_text">
+              My name is Katerina and I am a piano teacher. I really like to try something new in life, and I started to
+              study the field of IT. Since I am a person who has been associated with creativity all my life, my choice
+              was front-end development. For 3 months now I have been taking courses in my city, and actively studying
+              the materials that are on the Internet. I really want to study this profession qualitatively and benefit
+              those
+              who need it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <h1 class="title">Contacts</h1>
+        <ul class="contacts_item">
+          <ul class="list_icon">
+            <li>
+              <img class="contacts_icon" src="./assets/png/email.png" alt="email">
+            </li>
+            <li>
+              <img class="contacts_icon" src="./assets/png/discord.png" alt="">
+            </li>
+            <li>
+              <img class="contacts_icon" src="./assets/png/github.png" alt="">
+            </li>
+            <li>
+              <img class="contacts_icon" src="./assets/png/vk.png" alt="">
+            </li>
+          </ul>
+          <ul class="list_info">
+            <li class="contacts_info"> <a class="contacts_link"
+                href="mailto:katerina.ivankova@mail.ru">katerina.ivankova@mail.ru</a></li>
+            <li class="contacts_info"> <a class="contacts_link" href="https://discord.com/">Katerina139#2247</a>
+            </li>
+            <li class="contacts_info"> <a class="contacts_link" href="https://github.com/Katerina139">Katerina139</a>
+            </li>
+            <li class="contacts_info"> <a class="contacts_link" href="https://vk.com/id155832073">Katerina Ivankova</a>
+            </li>
+          </ul>
+        </ul>
+      </section>
+      <section class="section_skills" id="skills">
+        <h1 class="title">Skills</h1>
+        <ul class="skills_items">
+          <ul class="skills_icon_list">
+            <li><img class="skills_img" src="./assets/png/free-icon-html-5-5968267.png" alt=""></li>
+            <li><img class="skills_img" src="./assets/png/free-icon-css-888847.png" alt=""></li>
+            <li><img class="skills_img" src="./assets/png/free-icon-js-5968292.png" alt=""></li>
+            <li><img class="skills_img" src="./assets/png/physics.png" alt=""></li>
+          </ul>
+          <ul class="skills_list">
+            <li class="skills_item">HTML</li>
+            <li class="skills_item">CSS</li>
+            <li class="skills_item">JavaScript</li>
+            <li class="skills_item">React</li>
+          </ul>
+        </ul>
+      </section>
+      <section class="section_code" id="code">
+        <h1 class="title">Code</h1>
+        <div class="code_box">
+          <pre class="code_text">
+            const numOne1 = prompt('Введите первое число', '');
+            const numSec1 = prompt('Введите второе число', '');
+            const operation = prompt ('Выберите нужную арифметическую операцию (+  -  /   *)', '');
+
+            if (operation == '+') {
+              console.log(+numOne1 + +numSec1);
+            } else if (operation == '-') {
+              console.log(numOne1 - numSec1);
+            } else if (operation == '/') {
+              console.log(numOne1 / numSec1);
+            } else if (operation == '*') {
+              console.log(numOne1 * numSec1);
+            } else {
+              console.log('Вы ввели неправильное значение');
+            }
+          </pre>
+        </div>
+      </section>
+      <section class="courses_items" id="courses">
+        <h1 class="title">Courses</h1>
+        <ul class="courses_list">
+          <li class="courses_item">IT School "Mela Rossa"</li>
+          <li class="courses_item">Rolling Scopes School</li>
+        </ul>
+      </section>
+      <section class="education_box" id="education">
+        <h1 class="title">Education</h1>
+        <ul class="education_list">
+          <li class="education_item">Belarusian State University of Culture and Arts</li>
+        </ul>
+      </section>
+      <section class="english" id="english">
+        <h1 class="title">English</h1>
+        <ul class="english_list">
+          <li class="english_item">B1 Pre-Intermediate</li>
+        </ul>
+      </section>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer_nav">
+        <div class="footer_info">
+          <p class="footer_text">@2022</p>
+          <a href="https://github.com/Katerina139" class="footer_link">Katerina139</a>
+        </div>
+        <div class="footer_img">
+          <a href="https://app.rs.school/"><img class="footer_pic" src="./assets/png/Без названия.png" alt=""></a>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>

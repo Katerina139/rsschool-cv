@@ -1,0 +1,279 @@
+@font-face {
+  font-family: Caveat;
+  src: url("assets/fonts/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: PTSans;
+  src: url("assets/fonts/PTSansNarrow-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+html {
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header {
+  background-color: antiquewhite;
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  
+}
+
+.nav_list {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: 'Kaushan Script', cursive;
+  color: #6d4c41;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.5s; 
+}
+
+.nav_link:hover {
+  color: #ab9790;
+}
+
+.title {
+  margin-left: 50px;
+  font-family: 'Kaushan Script', cursive;
+  color: #6d4c41;
+}
+
+.summary {
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50px;
+}
+
+.desc_text {
+  display: flex;
+  align-items: center;  
+}
+
+.profile_text {
+  text-align: left;
+  margin: 0 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 2em;
+  color: #40241a;
+}
+
+.contacts {
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.contacts_item {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.contacts_info {
+  list-style: none;
+}
+
+.list_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_icon {
+  width: 30px;
+  height: 30px;
+} 
+
+.contacts_link {
+  line-height: 2em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #40241a;
+}
+
+.contacts_link:hover {
+  color: #ab9790;
+}
+
+.section_skills {
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.skills_items {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.skills_icon_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.skills_img {
+  width: 30px;
+  height: 30px;
+}
+  
+.skills_list {
+  list-style: none;
+  line-height: 2em;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.skills_item {
+  line-height: 2em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.section_code {
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.code_box {
+  background-color:rgb(252, 249, 246);
+  
+}
+
+.code_text {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #40241a;
+}
+
+.courses_items {
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.courses_list {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.courses_item {
+  line-height: 2em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.education_list {
+  list-style: none;
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.education_item {
+  margin-bottom: 50px;
+  line-height: 2em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.english_list {
+  list-style: none;
+}
+
+.english_item {
+  margin-bottom: 50px;
+  line-height: 2em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.footer {
+  background-color: antiquewhite;
+  border-bottom: 0.5px solid rgb(214, 214, 180);
+}
+
+.footer_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer_text {
+  margin-left: 10px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.footer_pic {
+  width: 150px;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+
+.footer_link {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.footer_link:hover {
+  color: #d9d6d4;
+}
