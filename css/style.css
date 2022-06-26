@@ -250,6 +250,7 @@ body {
 .footer_info {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .footer_text {
@@ -263,4 +264,16 @@ body {
   width: 150px;
   border-radius: 10px;
   margin-top: 7px;
+}
+
+.footer_link {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #40241a;
+}
+
+.footer_link:hover {
+  color: #d9d6d4;
 }
