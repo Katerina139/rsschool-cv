@@ -23,3 +23,9 @@ function getString(str) {
   return `${newStr.toUpperCase().slice(0, 1)}${newStr.toLowerCase().slice(1)}`
 }
 ```
+
+## Education ##
+* Belarusian State University of Culture and Arts
+* IT-school "MelaRossa" (Frontend development)
+* RS School
+* Udemy (JavaScript)
