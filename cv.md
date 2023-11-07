@@ -15,3 +15,11 @@
 * JS
 * React
 
+## Example Code ##
+
+```
+function getString(str) {
+  let newStr = str.trim();
+  return `${newStr.toUpperCase().slice(0, 1)}${newStr.toLowerCase().slice(1)}`
+}
+```
