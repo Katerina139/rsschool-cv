@@ -29,3 +29,7 @@ function getString(str) {
 * IT-school "MelaRossa" (Frontend development)
 * RS School
 * Udemy (JavaScript)
+
+## Language ##
+
+* English B1
