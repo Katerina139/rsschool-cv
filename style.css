@@ -200,3 +200,14 @@ main {
   border-bottom: 1px solid darkslategray;
   margin: 20px auto;
 }
+
+.code-box {
+  align-items: baseline;
+  text-align: left;
+  background-color: rgb(244, 241, 236);
+  border-radius: 10px;
+}
+
+.code-text {
+  padding: 20px;
+}
