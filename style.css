@@ -211,3 +211,13 @@ main {
 .code-text {
   padding: 20px;
 }
+
+.courses-link {
+  text-align: left;
+  padding: 10px;
+}
+
+.courses-list {
+  background-color: rgb(244, 241, 236);
+  border-radius: 10px;
+}
