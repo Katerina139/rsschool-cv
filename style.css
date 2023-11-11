@@ -151,3 +151,16 @@ main {
 .link-social:hover {
   color: darkslategray;
 }
+
+.skills-info {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.skills-text {
+  margin-left: 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 2.3em;
+}
