@@ -58,3 +58,45 @@ main {
 .nav-link:hover {
   color: rgb(118, 162, 162);
 }
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin: 0;
+  background-color: rgba(210, 177, 128, 0.9);
+  position: relative;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 125px;
+  border: 3px darkslategray solid;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  padding: 270px 10px 10px 10px;
+}
+
+.profile-info-text {
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: darkslategray;
+}
+
+.text-box {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5em;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(40, 102, 102);
+}
