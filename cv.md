@@ -7,3 +7,5 @@
 * **Telegram:** *@Katerina_Ivankova*
 * **Web-site:** *https://katerinaweb.tilda.ws/*
 
+## About me ##
+* I am a piano teacher by education. I decided to try myself in a new profession. My choice fell on Frontend development, because I consider this work creative. I graduated from courses in this direction, and I continue self-study.
