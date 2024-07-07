@@ -240,3 +240,19 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
+.footer-text {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.footer-img {
+  width: 100px;
+}
+
+.img-git {
+  width: 70px;
+  height: 70px;
+}
