@@ -132,3 +132,111 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.link-social {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 2.3em;
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.link-social:hover {
+  color: darkslategray;
+}
+
+.skills-info {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.skills-text {
+  margin-left: 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 2.3em;
+}
+
+.section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.section-main-info {
+  background-color: antiquewhite;
+}
+
+.subtitle {
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 50px;
+  color: darkslategray;
+  margin-bottom: 30px;
+}
+
+.summary-info {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #40241a;
+  background-color: rgb(244, 241, 236);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.section-line {
+  width: 90%;
+  border-bottom: 1px solid darkslategray;
+  margin: 20px auto;
+}
+
+.code-box {
+  align-items: baseline;
+  text-align: left;
+  background-color: rgb(244, 241, 236);
+  border-radius: 10px;
+}
+
+.code-text {
+  padding: 20px;
+}
+
+.courses-link {
+  text-align: left;
+  padding: 10px;
+}
+
+.courses-list {
+  background-color: rgb(244, 241, 236);
+  border-radius: 10px;
+}
+
+.languages-info {
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  background-color: darkslategray;
+}
+
+.footer-nav {
+  padding: 25px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
