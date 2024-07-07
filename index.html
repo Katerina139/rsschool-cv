@@ -3,9 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="info-box">
+      <img class="profile-img" src="./assets/img/foto.jpg" alt="foto">
+      <div class="profile-info">
+        <div class="profile-info-text">
+          <h1>Katerina Ivankova</h1>
+          <p class="text-box">Frontend developer</p>
+          <p class="text-box">Mogilev, Belarus</p>
+        </div>
+      </div>
+      <h2 class="title-left-box">Contacts</h2>
+      <div class="line-left-box"></div>
+      <div class="contacts-info">
+        <div class="list-icons">
+          <img class="icon-social" src="./assets/png/email.png" alt="email">
+          <img class="icon-social" src="./assets/png/vk.png" alt="vk">
+          <img class="icon-social" src="./assets/png/discord.png" alt="discord">
+          <img class="icon-social" src="./assets/png/github.png" alt="github">
+        </div>
+        <div class="list-info">
+          <a class="link-social" href="mailto:katerina.ivankova@mail.ru">katerina.ivankova@mail.ru</a>
+          <a class="link-social" href="https://vk.com/id155832073">Katerina Ivankova</a>
+          <a class="link-social" href="https://discord.com/">Katerina139#2247</a>
+          <a class="link-social" href="https://github.com/Katerina139">Katerina139</a>
+        </div>
+      </div>
+      <h2 class="title-left-box">Skills</h2>
+      <div class="line-left-box"></div>
+      <div class="skills-info">
+        <div class="list-icons">
+          <img class="icon-social" src="./assets/png/free-icon-html-5-5968267.png" alt="HTML">
+          <img class="icon-social" src="./assets/png/free-icon-css-888847.png" alt="CSS">
+          <img class="icon-social" src="./assets/png/free-icon-js-5968292.png" alt="JS">
+          <img class="icon-social" src="./assets/png/atom.png" alt="React">
+        </div>
+        <div class="list-info">
+          <p class="skills-text">HTML</p>
+          <p class="skills-text">CSS</p>
+          <p class="skills-text">Java Script</p>
+          <p class="skills-text">React</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-main-info">
+      <div class="section summary-item">
+        <h2 class="subtitle" id="summary">Summary</h2>
+        <div class="summary-info">My name is Katerina and I am piano teacher by education. I decided to try myself in a new profession. My choice fell on Frontend development, because I consider this work creative. I graduated from courses in this direction, and I continue self-study.</div>
+      </div>
+      <div class="section-line"></div>
+      <div class="section code-section">
+        <h2 class="subtitle" id="code">Code</h2>
+        <div class="code-box">
+          <pre class="code-text">
+            function getString(str) {
+              let newStr = str.trim();
+              return `${newStr.toUpperCase().slice(0, 1)}${newStr.toLowerCase().slice(1)}`;
+            }
+          </pre>
+        </div>
+      </div>
+      <div class="section-line"></div>
+      <div class="section courses-item">
+        <h2 class="subtitle" id="courses">Courses</h2>
+        <div class="courses-info">
+          <ul class="courses-list">
+            <li class="courses link summary-info">IT School 'Mela Rossa'</li>
+            <li class="courses link summary-info">RS School 'JavaScript/Front-end 2024Q2</li>
+            <li class="courses link summary-info">Udemy 'The Complete JavaScript Course 2023: From Zero to Expert!'</li>
+            <li class="courses link summary-info">Udemy 'React - The Complete Guide 2023 (incl. React Router &amp; Redux)'</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section-line"></div>
+      <div class="section education-info">
+        <h2 class="subtitle" id="education">Education</h2>
+        <div class="education-info">
+          <p class="summary-info">Belorussian State University of Culture and Arts</p>
+        </div>
+      </div>
+      <div class="section-line"></div>
+      <div class="section languages-info">
+        <h2 class="subtitle" id="languages">Languages</h2>
+        <p class="summary-info">English - B1 Pre-Intermediate</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-section">
+    <div class="container">
+      <nav class="footer-nav">
+        <div class="footer-info">
+          <p class="footer-text">@2024</p>
+          <a class="footer-link" href="https://github.com/Katerina139"><img class="img-git footer-img" src="./assets/png/github.png" alt="GitHub"></a>
+          <a class="footer-link" href="https://app.rs.school/"><img class="footer-img" src="./assets/png/rs.png" alt="RSSchool"></a>
+        </div>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
