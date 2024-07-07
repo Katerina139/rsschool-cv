@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Caveat;
+  src: url("assets/fonts/Caveat-VariableFont_wght.ttf")
+}
+
+@font-face {
+  font-family: PTSans;
+  src: url("assets/fonts/PTSansNarrow-Regular.ttf")
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  background-color: darkslategray;
+  font-family: 'Caveat';
+  height: 100px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  padding: 25px;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+.nav-link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.nav-link:hover {
+  color: rgb(118, 162, 162);
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin: 0;
+  background-color: rgba(210, 177, 128, 0.9);
+  position: relative;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 125px;
+  border: 3px darkslategray solid;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  padding: 270px 10px 10px 10px;
+}
+
+.profile-info-text {
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: darkslategray;
+}
+
+.text-box {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5em;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(40, 102, 102);
+}
+
+.title-left-box {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 50px;
+  color: darkslategray;
+}
+
+.line-left-box {
+  width: 60%;
+  border-bottom: 1px solid darkslategray;
+  margin: 15px auto;
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.icon-social {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.list-icons {
+  display: flex;
+  flex-direction: column;
+}
